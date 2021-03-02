@@ -29,9 +29,7 @@ a:hover {
     margin-top: 13rem;
     margin-bottom: 13rem;
   }
-  .instruction {
-    font-weight: 500;
-  }
+ 
 
 
   .beginning {
@@ -161,4 +159,86 @@ a:hover {
     -moz-transition-delay: 0s;
     -o-transition-delay: 0s;
     transition-delay: 0s;
+}
+
+/* tablet */
+@media only screen and (max-width: 66rem) {
+    body {
+        background-color: #FFECE5;
+        margin: 8rem;
+      }
+      
+    p {
+        font-weight: 400;
+        font-size: 30px;
+        text-align: left;
+      }
+    
+    
+      a {
+          font-size: 24px; 
+        
+      }
+
+      .beginning {
+        font-size: 33px;
+      }
+      .beginning:hover {
+          font-size: 40px;
+      }
+      
+      
+    /* button */
+    
+    
+      .button {
+        font-size: 38px;
+        margin: 0em;
+        padding: 0.1em;
+        padding-top: 0.67em;
+    }
+}
+
+/* mobile */
+@media only screen and (max-width: 50rem) {
+    body {
+        background-color: #FFECE5;
+        margin: 3.5rem;
+      }
+      
+    p {
+        font-weight: 400;
+        font-size: 13px;
+        text-align: left;
+      }
+    
+    
+      a {
+          font-size: 7px; 
+        
+      }
+
+      .beginning {
+        font-size: 16px;
+      }
+      .beginning:hover {
+          font-size: 18px;
+      }
+      
+      .navigate {
+        text-align: left;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        
+      }
+      
+    /* button */
+    
+    
+      .button {
+        font-size: 21px;
+        margin: 0em;
+        padding: 0.1em;
+        padding-top: 0.67em;
+    }
 }

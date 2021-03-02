@@ -74,4 +74,44 @@ body {
               width: 10px;
               height: 10px;
           }
+
+
+
+/* tablet */
+@media only screen and (max-width: 66rem) {
+h1 {
+    font-size: 30px;
+    margin:auto;
+    padding-top: 9rem;
+    padding-bottom: 3rem;
+  }
+
+  p {
+    font-size: 1.7rem;
+  
+  }
+
+     .button001 {
+       margin-top: 9rem;
+          }
+}
+
+/* mobile */
+@media only screen and (max-width: 50rem) {
+    h1 {
+        font-size: 20px;
+        padding-top: 9rem;
+        padding-bottom: 1rem;
+      }
+    
+      p {
+        font-size: 1.2rem;
+      
+      }
+    
+         .button001 {
+           margin-top: 9rem;
+              }
+    }
+
   
