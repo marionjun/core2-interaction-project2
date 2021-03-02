@@ -1,0 +1,120 @@
+body {
+    background-color: #FFECE5;
+  }
+  
+  h1 {
+    font-family: 'Zilla Slab', serif;
+    font-weight: bold;
+    font-size: 80px;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  /* div {
+    font-family: 'Zilla Slab', serif;
+    font-weight: medium;
+    font-size: 60px;
+    margin-top: 0;
+    text-align: center;
+    line-height: 5.8rem;
+  } */
+  
+  div {
+    font-family: 'Zilla Slab', serif;
+    font-weight: medium;
+    font-size: 60px;
+    text-align: center;
+  
+  }
+  
+  a {
+      color: inherit;
+    text-decoration: none;
+    position: relative;
+  }
+  .beginning {
+  position: relative;
+     transform: rotate(-12.44deg);
+    top: 120px;
+  }
+  
+  .p {
+    transform: rotate(5.56deg);
+    position: relative;
+    top: 80px;
+  }
+  
+  .o {
+    transform: rotate(-8.23deg);
+    position: relative;
+    top: 30px;
+    right: 20px;
+  }
+  
+  .e {
+    position: relative;
+    top: -10px;
+  }
+  
+  .m {
+    transform: rotate(8.75deg);
+    position: relative;
+    top: -50px;
+  }
+  
+  .end {
+    transform: rotate(-6.3deg);
+    position: relative;
+    top: -80px;
+  }
+  
+  div:hover {
+    position: relative;
+    font-family: 'Zilla Slab', serif;
+    font-weight: medium;
+    font-size: 60px;
+    margin-top: 0;
+    text-align: center;
+    line-height: 5.8rem;
+    transform: rotate(0deg);
+    top: 0;
+    right: 0;
+    
+  } 
+    
+  /* .beginning:hover {
+    transform: rotate(0deg);
+  position: relative;
+    top: 0px;
+  }
+  
+  .p:hover {
+    transform: rotate(0deg);
+    position: relative;
+    top: 0px;
+  }
+  
+  .o:hover {
+    transform: rotate(0deg);
+    position: relative;
+    top: 0px;
+    right: 0px;
+  }
+  
+  .e:hover {
+    position: relative;
+    top: 0px;
+  }
+  
+  .m:hover {
+    transform: rotate(0deg);
+    position: relative;
+    top: 0px;
+  }
+  
+  .end:hover {
+    transform: rotate(0deg);
+    position: relative;
+    top: 0px;
+  } */
