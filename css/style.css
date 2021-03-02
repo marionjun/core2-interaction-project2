@@ -95,7 +95,7 @@ input[type=radio]{ display:block; }
 @media only screen and (max-width: 66rem) {
 }
 .book {
-  top: 21%;
+  top: 18%;
   left: 10%;
   width: 670px;
   height: 670px;
