@@ -13,27 +13,16 @@ h1 {
   font-family: 'Zilla Slab', serif;
   font-weight: bold;
   font-size: 50px;
-  left: 97px;
-  top: 160px;
+  left: 87px;
+  top: 140px;
 }
 h2 {
   font-family: 'Zilla Slab', serif;
   font-weight: normal;
   font-size: 20px;
-  left: 140px;
-  top: 250px;
+  left: 130px;
+  top: 230px;
   text-align: center;
-}
-
-
-p {  
-  font-family: 'Zilla Slab', serif;
-  font-weight: 300;
-  text-align: justify;
-  font-size: 20px;
-width:100%;
-  height: 100%;
-  color: white;
 }
 body {
   background: #fcdbd0;
@@ -63,8 +52,8 @@ input {
   float:left;
   width:240px;
   font-size: 35px;
-  top: 380px;
-  left: 115px;
+  top: 350px;
+  left: 105px;
 }
 
 input::-webkit-placeholder { font-weight:300; }
@@ -74,29 +63,34 @@ input[type=radio]{ display:block; }
 
 
 .book {
-  width: 550px;
-  height: 550px;
+  width: 530px;
+  height: 530px;
   transform: translate(-50%, -50%);
-  top: 15%;
-  left: 30%;
+  top: 50%;
+  left: 50%;
   background: #ffd9cb;
   border-radius: 50%;
- -webkit-animation: spinoffPulse 22s infinite linear;
+  
  
 }
 
+p {  
+  font-family: 'Zilla Slab', serif;
+  font-weight: 300;
+  text-align: justify;
+  font-size: 20px;
+width:100%;
+  height: 100%;
+  color: white;
+}
 
-@-webkit-keyframes spinoffPulse {
-  0% { -webkit-transform:rotate(0deg); }
-100% { -webkit-transform:rotate(360deg); }
-} 
 
 /* tablet */
 @media only screen and (max-width: 66rem) {
 }
 .book {
-  top: 18%;
-  left: 10%;
+  top: 50%;
+  left: 50%;
   width: 670px;
   height: 670px;
 }
@@ -124,8 +118,8 @@ p {
 /* mobile */
 @media only screen and (max-width: 50rem) {
   .book {
-    top: 26%;
-    left: 12%;
+    top: 50%;
+    left: 50%;
     width: 300px;
     height: 300px;
   }
